@@ -58,10 +58,11 @@ npm install
 Örnek `.env.testing`:
 
 ```
-BASE_URL=https://www.paribu.com
+BASE_URL=https://www.demotest.com
+INT_ENV=https://www.demoint.com
 ```
 
-### 3. Testleri Çalıştır
+### 3. 🚀 Test Çalıştırma
 
 Ortam seçimi komutu;
 
@@ -77,11 +78,14 @@ $env:TEST_ENV="prod"; npm run test:webkit	Run tests in WebKit (Safari engine)
 
 All tests are opened in non-headless mode, in incognito and fullscreen (maximized) mode.
 
+Tüm Tarayıcılarda Çalıştırmak
+npm run test:all
+
 ---
 
 ## 🧪 Yazılmış Test Senaryosu
 
-**`paribuMarket.feature`**
+**`demo.feature`**
 
 - FAN kategorisi filtrelenir
 - 12 saatlik fiyat değişimi seçilir
@@ -121,6 +125,18 @@ npx ts-node scripts/generateReport.ts
 
 # Paralel test çalıştır (isteğe bağlı)
 npx cucumber-js --parallel 2
+
+# Chromium testi
+npm run test:chromium
+
+# Firefox testi
+npm run test:firefox
+
+# WebKit testi
+npm run test:webkit
+
+# Tüm tarayıcılar için test
+npm run test:all
 ```
 
 ---

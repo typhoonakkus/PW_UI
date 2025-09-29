@@ -1,4 +1,4 @@
-  Feature: Paribu Market Order Calculation
+  Feature: Demo Market Order Calculation
 
     Background:
       Given I open the Paribu homepage

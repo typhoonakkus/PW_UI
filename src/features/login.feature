@@ -1,4 +1,4 @@
-Feature: Paribu Login Validation
+Feature: Demo Login Validation
 
   Scenario: Login attempt with invalid credentials shows error message
     Given I am on the login page   
