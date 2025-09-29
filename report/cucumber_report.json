@@ -1,0 +1,279 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "paribu-login-validation;login-attempt-with-invalid-credentials-shows-error-message",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Login attempt with invalid credentials shows error message",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1146672199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I am on the login page",
+            "match": {
+              "location": "src\\steps\\LoginSteps.ts:6"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 249924599,
+              "error_message": "page.goto: net::ERR_CONNECTION_RESET at https://paribu.com/\nCall log:\n\u001b[2m  - navigating to \"https://paribu.com/\", waiting until \"load\"\u001b[22m\n\n    at LoginPage.<anonymous> (C:\\Users\\typho\\Documents\\PARIB_CaseStudy\\paribu_UI\\src\\pages\\LoginPage.ts:11:21)\n    at C:\\Users\\typho\\Documents\\PARIB_CaseStudy\\paribu_UI\\src\\pages\\LoginPage.ts:8:71\n    at __awaiter (C:\\Users\\typho\\Documents\\PARIB_CaseStudy\\paribu_UI\\src\\pages\\LoginPage.ts:4:12)\n    at LoginPage.goToLoginPage (C:\\Users\\typho\\Documents\\PARIB_CaseStudy\\paribu_UI\\src\\pages\\LoginPage.ts:20:16)\n    at World.<anonymous> (C:\\Users\\typho\\Documents\\PARIB_CaseStudy\\paribu_UI\\src\\steps\\LoginSteps.ts:8:19)\n    at C:\\Users\\typho\\Documents\\PARIB_CaseStudy\\paribu_UI\\src\\steps\\LoginSteps.ts:8:71\n    at __awaiter (C:\\Users\\typho\\Documents\\PARIB_CaseStudy\\paribu_UI\\src\\steps\\LoginSteps.ts:4:12)\n    at World.<anonymous> (C:\\Users\\typho\\Documents\\PARIB_CaseStudy\\paribu_UI\\src\\steps\\LoginSteps.ts:16:12)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I click the Login button in the menu",
+            "match": {
+              "location": "src\\steps\\LoginSteps.ts:11"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "Mobile Number",
+                      "Password"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "5553188940",
+                      "wrongPass"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I fill in the login form with invalid data",
+            "match": {
+              "location": "src\\steps\\LoginSteps.ts:15"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I click the Login button",
+            "match": {
+              "location": "src\\steps\\LoginSteps.ts:21"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "I should see an error message with text \"Girdiğiniz bilgileri kontrol edin\"",
+            "match": {
+              "location": "src\\steps\\LoginSteps.ts:25"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 645675699
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "paribu-login-validation",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Paribu Login Validation",
+    "tags": [],
+    "uri": "src\\features\\login.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "paribu-market-order-calculation;verify-total-price-calculation-on-third-fan-crypto",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Verify total price calculation on third FAN crypto",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 457332699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open the Paribu homepage",
+            "match": {
+              "location": "src\\steps\\paribuMarket.steps.ts:8"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 198451000,
+              "error_message": "page.goto: net::ERR_CONNECTION_RESET at https://paribu.com/\nCall log:\n\u001b[2m  - navigating to \"https://paribu.com/\", waiting until \"load\"\u001b[22m\n\n    at World.<anonymous> (C:\\Users\\typho\\Documents\\PARIB_CaseStudy\\paribu_UI\\src\\steps\\paribuMarket.steps.ts:10:19)\n    at C:\\Users\\typho\\Documents\\PARIB_CaseStudy\\paribu_UI\\src\\steps\\paribuMarket.steps.ts:8:71\n    at __awaiter (C:\\Users\\typho\\Documents\\PARIB_CaseStudy\\paribu_UI\\src\\steps\\paribuMarket.steps.ts:4:12)\n    at World.<anonymous> (C:\\Users\\typho\\Documents\\PARIB_CaseStudy\\paribu_UI\\src\\steps\\paribuMarket.steps.ts:20:12)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "I close the cookie notice",
+            "match": {
+              "location": "src\\steps\\paribuMarket.steps.ts:14"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I navigate to the Markets page",
+            "match": {
+              "location": "src\\steps\\paribuMarket.steps.ts:18"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I filter by FAN",
+            "match": {
+              "location": "src\\steps\\paribuMarket.steps.ts:23"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I set the price change timeframe to 12 hours",
+            "match": {
+              "location": "src\\steps\\paribuMarket.steps.ts:27"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I select the third listed cryptocurrency",
+            "match": {
+              "location": "src\\steps\\paribuMarket.steps.ts:31"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "I enter the current price into the Unit Price field",
+            "match": {
+              "location": "src\\steps\\paribuMarket.steps.ts:36"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I enter \"quantity\" as the quantity",
+            "match": {
+              "location": "src\\steps\\paribuMarket.steps.ts:42"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "the Total Price should be correctly calculated",
+            "match": {
+              "location": "src\\steps\\paribuMarket.steps.ts:47"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 587797399
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "paribu-market-order-calculation",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Paribu Market Order Calculation",
+    "tags": [],
+    "uri": "src\\features\\paribuMarket.feature"
+  }
+]
