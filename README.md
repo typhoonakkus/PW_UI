@@ -1,5 +1,5 @@
 
-# 🧪 Paribu UI Test Automation - Playwright + Cucumber
+# 🧪 UI Test Automation - Playwright + Cucumber
 
 This project is a test automation framework developed as part of a case study for a Senior QA Engineer position. It includes both UI and API test scenarios and follows industry best practices such as BDD, Page Object Model, and multi-browser support.
 
