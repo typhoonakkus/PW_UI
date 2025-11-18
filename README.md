@@ -21,11 +21,11 @@ This project is a test automation framework developed as part of a case study fo
 ## 📁 Klasör Yapısı
 
 ```bash
-paribu-ui-case-study/
+parbu-ui-case-study/
 ├── features/
-│   ├── paribuMarket.feature           # Gherkin formatlı senaryolar
+│   ├── parbuMarket.feature           # Gherkin formatlı senaryolar
 │   └── step_definitions/
-│       └── paribuMarket.steps.ts     # Step defineleri
+│       └── parbuMarket.steps.ts     # Step defineleri
 ├── src/
 │   ├── pages/                         # Page Object Model yapısı
 │   ├── utils/                         # Logger, test verisi okuma
